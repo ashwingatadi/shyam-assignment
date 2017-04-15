@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Validations</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/validationScript.js"></script>
+    </head>
+    <body>
+        <div id="header">Assignnment - Form Validations</div>
+        <table>
+            <tr>
+                <td><label class="label">First Name</label> </td>
+                <td><input type="text" id="txtFirstName"/> </td>
+                <td><label id="valFirstName" class="validationMessages"></label> </td>
+            </tr>
+             <tr>
+                <td><label class="label">Last Name</label> </td>
+                <td><input type="text" id="txtLastName"/> </td>
+                <td><label id="valLastName" class="validationMessages"></label> </td>
+            </tr>
+             <tr>
+                <td><label class="label">Gender</label> </td>
+                <td><input type="radio" name="gender" id="radioMale"/>Male  <input type="radio" name="gender"  id="radioFemale"/>Female</td>
+                <td><label id="valGender" class="validationMessages"></label> </td>
+            </tr>
+             <tr>
+                <td><label class="label">Email</label> </td>
+                <td><input type="text" id="txtEmail"/> </td>
+                <td><label id="valEmail" class="validationMessages"></label> </td>
+            </tr>
+             <tr>
+                <td><label class="label">Password</label> </td>
+                <td><input type="password" id="txtPassword"/> </td>
+                <td><label id="valPassword" class="validationMessages"></label> </td>
+            </tr>
+             <tr>
+                <td><label class="label">Confirm Password</label> </td>
+                <td><input type="password" id="txtCPassword"/> </td>
+                <td><label id="valCPassword" class="validationMessages"></label> </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="chkagreement"/> I agree to terms and conditions
+                </td>
+                <td><label id="valTandC" class="validationMessages"></label> </td>
+            </tr>
+             <tr>
+                <td colspan="3"> &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="submitCols">
+                    <input type="button" id="btnSubmit" class="button" value="Submit"/>
+                    <input type="button"  id="btnCancel"  class="button" value="Cancel"/>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
